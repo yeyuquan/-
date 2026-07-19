@@ -20,7 +20,7 @@ export function Hero() {
       <div className="hero-grid" aria-hidden="true" />
       <div className="hero-content container">
         <p className="eyebrow hero-kicker"><span />STAGE LIGHTING DESIGNER / 2017 - ∞</p>
-        <h1 id="hero-title">让光，<br /><em>成为现场的语言。</em></h1>
+        <h1 id="hero-title">舞台灯光<br /><em>设计 · 预演 · 执行</em></h1>
         <div className="hero-bottom">
           <p className="hero-copy">舞台灯光设计师<br />叶育铨 <span>/ YUQUAN YE</span></p>
           <a className="round-link" href={`mailto:${contact.email}`} aria-label="发送合作邮件">
