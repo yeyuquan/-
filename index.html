@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090909" />
+    <meta name="description" content="叶育铨 - 舞台灯光设计师个人作品集" />
+    <title>叶育铨 | 舞台灯光设计师</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (window.location.protocol === 'file:') {
+        document.body.innerHTML = `
+          <main style="align-items:center;background:#090909;color:#f2f0ed;display:flex;font-family:Arial,'Microsoft YaHei',sans-serif;justify-content:center;min-height:100vh;padding:32px;box-sizing:border-box">
+            <section style="border:1px solid rgba(255,255,255,.18);max-width:620px;padding:44px;position:relative">
+              <span style="background:#fb3d1b;display:block;height:8px;margin-bottom:26px;width:8px"></span>
+              <p style="color:#aaa;letter-spacing:.16em;font-size:11px;margin:0 0 18px">YUQUAN YE / PORTFOLIO</p>
+              <h1 style="font-size:32px;font-weight:400;line-height:1.35;margin:0 0 18px">请通过本地预览服务打开网站</h1>
+              <p style="color:#aaa;line-height:1.8;margin:0">React 网站不能直接双击 index.html 运行。请双击项目文件夹中的“启动预览.bat”，浏览器会自动打开网站。</p>
+            </section>
+          </main>`
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
